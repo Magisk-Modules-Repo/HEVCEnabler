@@ -1,7 +1,7 @@
-id=template
-name=Template Module
+id=HEVCEnabler
+name=HEVC Enabler OP3T
 version=v1
 versionCode=1
-author=topjohnwu
-description=A short description
+author=crashoverride1995
+description=Enable the HEVC(High Efficiency Video Codec) on OP3T with stock bitrate.
 template=4
