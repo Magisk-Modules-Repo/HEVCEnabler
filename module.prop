@@ -3,5 +3,5 @@ name=HEVC Enabler OP 3T/5
 version=v1.1
 versionCode=1.1
 author=crashoverride1995
-description=Enable the HEVC(High Efficiency Video Codec) on OP 3T/5 with stock bitrate.
+description=Enable the HEVC(High Efficiency Video Codec) on OP 3T and 5 with stock bitrate.
 template=4
