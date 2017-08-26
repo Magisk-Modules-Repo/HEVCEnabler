@@ -1,7 +1,7 @@
 id=HEVCEnabler
-name=HEVC Enabler OP3T and OP5 
-version=v1.1
-versionCode=1.1
+name=HEVC+60fps GCam OP3T and OP5 
+version=v2.0
+versionCode=2.0
 author=crashoverride1995
-description=Enable the HEVC(High Efficiency Video Codec) on OnePlus 3T and 5 with stock bitrate.
+description=Enable the HEVC(High Efficiency Video Codec) on OnePlus 3T and 5 with stock bitrate and 60fps video recording in Google Camera.
 template=4
