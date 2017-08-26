@@ -48,7 +48,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "    HEVC-Enabler for OP3T/5    "
+  ui_print "  HEVC+60fps GCam for OP3T/5   "
   ui_print "*******************************"
 }
 
