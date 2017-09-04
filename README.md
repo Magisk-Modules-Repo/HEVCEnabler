@@ -1,4 +1,6 @@
 ## Changelog 
+v2.2 - Fixed Slo-Mo not working in OOS Camera.
+
 v2.1 - Enabled Slow Motion for Google Camera
 
 v2.0 - Added 60fps recording capability for Google Camera
