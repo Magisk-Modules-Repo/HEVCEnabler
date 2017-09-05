@@ -47,9 +47,9 @@ LATESTARTSERVICE=false
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print "*******************************"
-  ui_print " HEVC+60fps+SM GCam for OP3T/5 "
-  ui_print "*******************************"
+  ui_print "*********************************"
+  ui_print " HEVC+60fps+SM GCam for OP3/3T/5 "
+  ui_print "*********************************"
 }
 
 ##########################################################################################
