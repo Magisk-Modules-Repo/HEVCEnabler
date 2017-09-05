@@ -1,4 +1,6 @@
-## Changelog 
+## Changelog
+v2.3 - Added support for Oneplus 3
+
 v2.2 - Fixed Slo-Mo not working in OOS Camera.
 
 v2.1 - Enabled Slow Motion for Google Camera
