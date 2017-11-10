@@ -1,4 +1,6 @@
 ## Changelog
+v2.5 - Removed 60fps mod since Modded GCam supports 60fps by default.
+
 v2.4 - Updated to latest Magisk Template 1400
 
 v2.3 - Added support for OnePlus 3
@@ -16,4 +18,4 @@ v1 - Initial Release
 ## Description 
 This modules is specifically designed for the OnePlus 3T and 5.
 It replaces the media_profiles.xml located at /system/etc/ to enable the HEVC (High Efficiency Video Codec). This results in increased quality due to the newer codec at the same bitrate which was being used with H264.
-This module enables 60fps video recording in Google Camera on OnePlus 3T/5 and also fixes slow motion crash on Google Camera. 
+This module fixes slow motion crash on Google Camera. 
