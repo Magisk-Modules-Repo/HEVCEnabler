@@ -1,4 +1,4 @@
-<span style="color:red">**NON FUNCTIONAL AS OF NOW ON OREO WILL BE UPDATED ONCE A FIX IS RELEASED**</span> 
+```diff + **NON FUNCTIONAL AS OF NOW ON OREO WILL BE UPDATED ONCE A FIX IS RELEASED ```
 
 ## Changelog
 v3.1 - Updated to latest Magisk template.
