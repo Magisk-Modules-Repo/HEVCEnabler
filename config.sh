@@ -41,7 +41,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "      LineageOS Recorder       "
+  ui_print "   HEVC+SM GCam for OP3/3T/5   "
   ui_print "*******************************"
 }
 
