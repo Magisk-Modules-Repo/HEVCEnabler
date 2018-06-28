@@ -1,4 +1,4 @@
-##### NON FUNCTIONAL AS OF NOW ON OREO WILL BE UPDATED ONCE A FIX IS RELEASED
+#### NON FUNCTIONAL AS OF NOW ON OREO
 
 ## Changelog
 v3.1 - Updated to latest Magisk template.
