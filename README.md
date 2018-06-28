@@ -1,4 +1,8 @@
+<span style="color:red">**NON FUNCTIONAL AS OF NOW ON OREO WILL BE UPDATED ONCE A FIX IS RELEASED**</span> 
+
 ## Changelog
+v3.1 - Updated to latest Magisk template.
+
 v3.0 - Added support for Oreo (thanks to theduke7@XDA).
 
 v2.5 - Removed 60fps mod since Modded GCam supports 60fps by default.
