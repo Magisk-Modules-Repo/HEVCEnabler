@@ -1,4 +1,4 @@
-#### NON FUNCTIONAL AS OF NOW ON OREO
+#### NON FUNCTIONAL AS OF NOW ON OREO ONLY HEVC WORKS ON OREO
 
 ## Changelog
 v3.1 - Updated to latest Magisk template.
