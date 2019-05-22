@@ -134,6 +134,9 @@ on_install() {
   # Extend/change the logic to whatever you want
   ui_print "- Extracting module files"
   unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+  custom_variables
+  device_check
+  api_check
 }
 
 # Only some special files require specific permissions
@@ -152,3 +155,27 @@ set_permissions() {
 }
 
 # You can add more functions to assist your custom script code
+
+custom_variables() {
+if [ -f vendor/build.prop ]; then BUILDS="/system/build.prop vendor/build.prop"; else BUILDS="/system/build.prop"; fi
+  OP3=$(grep -E "ro.product.device=oneplus3|ro.product.device=OnePlus3|ro.product.device=OnePlus3T" $BUILDS)
+  OP5=$(grep -E "ro.product.device=oneplus5|ro.product.device=OnePlus5" $BUILDS)
+}
+
+device_check() {
+  if [ -n "$OP3" ] || [ -n "$OP5" ]; then
+    break
+  else
+    abort "Your device is not a OnePlus 3/3T/5"
+  fi
+}
+
+# this function allows installation just with API level that matches the requisites
+
+api_check() {
+  if [ "$API" -eq 25 ] || [ "$API" -eq 24 ]; then
+    break
+  else
+    abort "This module is only for devices running Nougat"
+  fi
+}

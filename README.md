@@ -1,6 +1,8 @@
 #### NON FUNCTIONAL AS OF NOW ON OREO ONLY HEVC WORKS ON OREO
 
 ## Changelog
+v3.4 - Added device and API checks (thanks to @MarcAnt01).
+
 v3.3 - Updated to latest Magisk Template.
 
 v3.2 - Minor fixes to improve functionality on OxygenOS.
